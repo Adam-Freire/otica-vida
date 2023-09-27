@@ -1,0 +1,44 @@
+.topo{
+    padding: 10px 15px;
+}
+
+.box-topo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-topo img{
+    width: 150px;
+}
+
+.navegacao a {
+    font-size: 18px;
+    color:#000;
+    text-decoration: none;
+    padding: 5px; 
+    margin: 0 5px;
+
+}
+
+.navegacao a:hover  {
+    background-color: #7272724d;
+    border-radius: 10px;
+    transition: .8s ease;
+
+} 
+
+@media (max-width: 550px) {
+    .box-topo{
+        flex-direction: column;
+    }
+
+    .navegacao {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin: 10px 0 0 0;
+        border-top: 1px solid #aaadaf;
+    }
+}

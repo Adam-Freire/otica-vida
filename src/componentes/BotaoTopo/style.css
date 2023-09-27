@@ -1,0 +1,32 @@
+.btn-topo {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;    
+}
+.btn-topo a{
+    text-decoration: none;
+    color: #05031b;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #000000b7;
+    font-size: 15px;
+}
+
+.btn-topo a:hover {
+    background-color: #aaadaf;
+    transition: 350ms ease-in-out;
+}
+
+@media (max-width:768px) {
+    .btn-topo a {
+        display: none;
+    }
+}
+
+@media (max-width:550px) {
+    .btn-topo {
+        display: none;
+    }
+}
